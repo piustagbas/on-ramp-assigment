@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.flexed-contianer{
+    width: inherit;
+    display: flex;
+    height: 370px;
+    flex-direction: row;
+    background-color: aqua;
+    margin-top: 5px;
+   gap: 20PX;
+    justify-content: center;
+    
+
+    
+}
+
+.flexed-contianer >div{
+    width: 360px;
+    height: 200px;
+    margin-top: 65px;
+    background-color: white;
+   
+    
+
+
+
+}
+.flexed-contianer .MAN{
+    width:340px;
+    height: 250px;
+    margin-top: 65px;
+    background-color: white;
+    
+
+
+}
+.image1{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    object-fit: cover;
+    position: relative;
+    left: 20px;
+    top: 18px;
+}
+
+.names1{
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    left: 92px;
+    bottom: 40px;
+}
+
+.parag1{
+    font-size: 12px;
+    font-family: sans-serif;
+    position: relative;
+    left: 94px;
+    bottom: 40px;
+  
+}
+.parag2{
+    font-size: 15px;
+    font-family: sans-serif;
+    position: relative;
+    left: 17px;
+    bottom: 9px;
+
+}
+
+.box1{
+   display: flex; 
+   width: inherit;
+   height: 420px;
+   background-color: white;
+   justify-content: center;
+   align-items: center;
+
+   
+ 
+
+}
+.hed2{
+    flex-direction: column-reverse;
+}
+
+.pius{
+    width: 380px;
+    height: 300px;
+    flex-direction: column-reverse;
+    background-color: rgb(236, 211, 67);
+    position: relative;
+    top: 20px;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    
+
+
+}
+.pius .butn1{
+    width:50px;
+    height:20px;
+    background-color: rgb(26, 70, 121);
+    position: relative;
+    left: 23px;
+    top: 12px;
+
+}
+.logo-twitter{
+    height: 3px;
+}
+
